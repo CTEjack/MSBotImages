@@ -1,0 +1,26 @@
+{
+    "title": "Electronic Expansion Valve",
+    "botOutput": "Electronic Expansion Valve (EXV)  See Fig. 40 for a cutaway view of the EXV. High-pressure liquid refrigerant enters valve through the top. As refrigerant passes through the orifice, pressure drops and refrigerant changes to a 2-phase condition (liquid and vapor). The electronic expansion valve operates through an electronically controlled activation of a stepper motor. The stepper motor stays in position, unless power pulses initiate the two discrete sets of motor stator windings for rotation in either direction. The direction depends on the phase relationship of the power pulses.",
+    "createdUtc": "2017-02-14T06:08:39Z",
+    "viewImg": "https://raw.githubusercontent.com/CTEjack/MSBotImages/master/EXV_cutaway.png",
+    "viewWorkPackage":"https://contextere.com",
+    "imageURL": "https://raw.githubusercontent.com/CTEjack/MSBotImages/master/EXV_thumb.png",
+    "properties": [
+        {
+            "key": "Board",
+            "value": "Adaptive Cards"
+        },
+        {
+            "key": "List",
+            "value": "Backlog"
+        },
+        {
+            "key": "Assigned to",
+            "value": "Matt Hidinger"
+        },
+        {
+            "key": "Due date",
+            "value": "Not set"
+        }
+    ]
+}

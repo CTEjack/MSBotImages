@@ -3,8 +3,8 @@
     "body": [
         {
             "type": "TextBlock",
-            "size": "Medium",
-            "weight": "Bolder",
+            "size": "medium",
+            "weight": "bolder",
             "text": "Electronic Expansion Valve"
         },
         {

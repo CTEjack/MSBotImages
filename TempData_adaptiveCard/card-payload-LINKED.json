@@ -5,14 +5,14 @@
     "body": [
         {
             "type": "TextBlock",
-            "text": "Current Compressor Temperature",
+            "text": "${title}",
             "size": "large",
             "weight": "bolder",
             "isSubtle": true
         },
         {
             "type": "TextBlock",
-            "text": "*WARNING* advanced scroll temperature protection will activate when the internal temperature reaches approximately 300°F",
+            "text": "${warnText}",
             "spacing": "ExtraLarge",
             "wrap": true,
             "weight": "Bolder"
@@ -26,7 +26,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://contextere.blob.core.windows.net/hvac/Themometer_icon_50x50.png",
+                            "url": "${iconURL}",
                             "size": "Small",
                             "spacing": "Small",
                             "height": "0px",
@@ -40,7 +40,7 @@
                     "items": [
                         {
                             "type": "TextBlock",
-                            "text": "265",
+                            "text": "${currTemp}",
                             "size": "ExtraLarge",
                             "spacing": "None",
                             "color": "Attention",
@@ -54,7 +54,7 @@
                     "items": [
                         {
                             "type": "TextBlock",
-                            "text": "°F",
+                            "text": "${tempFormat}",
                             "weight": "Bolder",
                             "spacing": "Small"
                         }

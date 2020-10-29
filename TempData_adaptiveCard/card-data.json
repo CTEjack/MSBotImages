@@ -2,5 +2,6 @@
     "title": "Current Compressor Temperature",
     "currTemp": "265",
     "tempFormat": "°F",
+    "iconURL":"https://contextere.blob.core.windows.net/hvac/Themometer_icon_50x50.png",
     "warnText":"*WARNING* advanced scroll temperature protection will activate when the internal temperature reaches approximately 300°F"
 }

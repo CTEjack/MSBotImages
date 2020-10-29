@@ -1,0 +1,86 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.2",
+    "fallbackText": "This card requires Media to be viewed. Ask your platform to update to Adaptive Cards v1.1 for this and more!",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Reset chiller alarm",
+            "wrap": true,
+            "size": "large",
+            "weight": "bolder",
+            "isSubtle": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "Submitted by",
+            "wrap": true,
+            "isSubtle": true,
+            "spacing": "Small"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://raw.githubusercontent.com/CTEjack/MSBotImages/master/jack_avatar.png",
+                            "width": "30px",
+                            "spacing": "None"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Jack Garrard",
+                            "wrap": true,
+                            "weight": "Bolder",
+                            "spacing": "None"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "2015-07-08",
+                            "wrap": true,
+                            "spacing": "None",
+                            "isSubtle": true,
+                            "size": "Small"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                }
+            ],
+            "spacing": "None"
+        },
+        {
+            "type": "Media",
+            "poster": "https://raw.githubusercontent.com/CTEjack/MSBotImages/master/VideoURL_poster.jpg",
+            "sources": [
+                {
+                    "mimeType": "video/mp4",
+                    "url": "https://www.youtube.com/watch?v=VBWPn-qnMhc"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.OpenUrl",
+            "title": "Fullscreen",
+            "url": "https://www.youtube.com/watch?v=VBWPn-qnMhc"
+        },
+        {
+            "type": "Action.OpenUrl",
+            "title": "Work Package",
+            "url": "https://contextere.com"
+        }
+    ]
+}

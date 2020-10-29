@@ -1,0 +1,6 @@
+{
+    "title": "Current Compressor Temperature",
+    "currTemp": "265",
+    "tempFormat": "°F",
+    "warnText":"*WARNING* advanced scroll temperature protection will activate when the internal temperature reaches approximately 300°F"
+}

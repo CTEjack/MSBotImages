@@ -13,9 +13,6 @@
                 {
                     "type": "Column",
                     "width": "stretch",
-                    "backgroundImage": {
-                        "url": "https://raw.gi"
-                    },
                     "height": "stretch",
                     "items": [
                         {

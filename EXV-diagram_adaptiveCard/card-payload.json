@@ -3,7 +3,7 @@
     "body": [
         {
             "type": "TextBlock",
-            "size": "medium",
+            "size": "large",
             "weight": "bolder",
             "text": "Electronic Expansion Valve"
         },
@@ -27,11 +27,11 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://raw.githubusercontent.com/CTEjack/MSBotImages/master/EXV_thumb.png",
+                            "url": "https://contextere.blob.core.windows.net/hvac/EXV_thumb.png",
                             "horizontalAlignment": "Right",
                             "selectAction": {
                                 "type": "Action.OpenUrl",
-                                "url": "https://raw.githubusercontent.com/CTEjack/MSBotImages/master/EXV_cutaway.png"
+                                "url": "https://contextere.blob.core.windows.net/hvac/EXV_cutaway.png"
                             }
                         }
                     ],
@@ -45,7 +45,7 @@
                 {
                     "type": "Action.OpenUrl",
                     "title": "View Cutaway",
-                    "url": "https://raw.githubusercontent.com/CTEjack/MSBotImages/master/EXV_cutaway.png"
+                    "url": "https://contextere.blob.core.windows.net/hvac/EXV_cutaway.png"
                 },
                 {
                     "type": "Action.OpenUrl",

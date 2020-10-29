@@ -6,7 +6,7 @@
     "body": [
         {
             "type": "TextBlock",
-            "text": "Reset chiller alarm",
+            "text": "${title}",
             "wrap": true,
             "size": "large",
             "weight": "bolder",
@@ -28,7 +28,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://contextere.blob.core.windows.net/hvac/jack_avatar.png",
+                            "url": "${avatarIMG}",
                             "width": "30px",
                             "spacing": "None"
                         }
@@ -41,14 +41,14 @@
                     "items": [
                         {
                             "type": "TextBlock",
-                            "text": "Jack Garrard",
+                            "text": "${author}",
                             "wrap": true,
                             "weight": "Bolder",
                             "spacing": "None"
                         },
                         {
                             "type": "TextBlock",
-                            "text": "2015-07-08",
+                            "text": "${submissionDate}",
                             "wrap": true,
                             "spacing": "None",
                             "isSubtle": true,
@@ -62,11 +62,11 @@
         },
         {
             "type": "Media",
-            "poster": "https://contextere.blob.core.windows.net/hvac/VideoURL_poster.jpg",
+            "poster": "${posterUrl}",
             "sources": [
                 {
                     "mimeType": "video/mp4",
-                    "url": "https://contextere.blob.core.windows.net/hvac/Reset chiller alarm.mp4"
+                    "url": "${videoURL}"
                 }
             ]
         }
@@ -75,7 +75,7 @@
         {
             "type": "Action.OpenUrl",
             "title": "Fullscreen",
-            "url": "https://contextere.blob.core.windows.net/hvac/Reset chiller alarm.mp4"
+            "url": "${videoURL}"
         },
         {
             "type": "Action.OpenUrl",

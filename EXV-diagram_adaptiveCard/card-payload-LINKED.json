@@ -1,0 +1,60 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "size": "large",
+            "weight": "bolder",
+            "text": "Electronic Expansion Valve"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "height": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Electronic Expansion Valve (EXV)  See Fig. 40 for a cutaway view of the EXV. High-pressure liquid refrigerant enters valve through the top. As refrigerant passes through the orifice, pressure drops and refrigerant changes to a 2-phase condition (liquid and vapor). The electronic expansion valve operates through an electronically controlled activation of a stepper motor. The stepper motor stays in position, unless power pulses initiate the two discrete sets of motor stator windings for rotation in either direction. The direction depends on the phase relationship of the power pulses.",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "${thumbURL}",
+                            "horizontalAlignment": "Right",
+                            "selectAction": {
+                                "type": "Action.OpenUrl",
+                                "url": "${viewImg}"
+                            }
+                        }
+                    ],
+                    "width": "auto"
+                }
+            ]
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "View Cutaway",
+                    "url": "${viewImg}"
+                },
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Work Package",
+                    "url": "https://contextere.com"
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.2"
+}

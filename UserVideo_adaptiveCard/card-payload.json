@@ -8,8 +8,8 @@
             "type": "TextBlock",
             "text": "Reset chiller alarm",
             "wrap": true,
-            "size": "large",
-            "weight": "bolder",
+            "size": "Large",
+            "weight": "Bolder",
             "isSubtle": true
         },
         {
@@ -28,7 +28,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://contextere.blob.core.windows.net/hvac/jack_avatar.png",
+                            "url": "https://raw.githubusercontent.com/CTEjack/MSBotImages/master/jack_avatar.png",
                             "width": "30px",
                             "spacing": "None"
                         }
@@ -62,11 +62,11 @@
         },
         {
             "type": "Media",
-            "poster": "https://contextere.blob.core.windows.net/hvac/VideoURL_poster.jpg",
+            "poster": "https://raw.githubusercontent.com/CTEjack/MSBotImages/master/VideoURL_poster.jpg",
             "sources": [
                 {
                     "mimeType": "video/mp4",
-                    "url": "https://contextere.blob.core.windows.net/hvac/Reset chiller alarm.mp4"
+                    "url": "https://github.com/CTEjack/MSBotImages/blob/master/Reset%20chiller%20alarm.mp4?raw=true"
                 }
             ]
         }
@@ -75,12 +75,46 @@
         {
             "type": "Action.OpenUrl",
             "title": "Fullscreen",
-            "url": "https://contextere.blob.core.windows.net/hvac/Reset chiller alarm.mp4"
+            "url": "https://github.com/CTEjack/MSBotImages/blob/master/Reset%20chiller%20alarm.mp4?raw=true"
         },
         {
             "type": "Action.OpenUrl",
             "title": "Work Package",
             "url": "https://contextere.com"
+        },
+        {
+            "type": "Action.ShowCard",
+            "title": "Feedback",
+            "card": {
+                "type": "AdaptiveCard",
+                "body": [
+                    {
+                        "type": "TextBlock",
+                        "text": "Is this answer relevant to you?"
+                    },
+                    {
+                        "type": "Input.ChoiceSet",
+                        "choices": [
+                            {
+                                "title": "Yes",
+                                "value": "Yes"
+                            },
+                            {
+                                "title": "Sort of",
+                                "value": "Sort of"
+                            },
+                            {
+                                "title": "No",
+                                "value": "No"
+                            }
+                        ],
+                        "placeholder": "Is this answer relevant to you?",
+                        "isMultiSelect": true,
+                        "separator": true,
+                        "id": "UserFeedback"
+                    }
+                ]
+            }
         }
     ]
 }

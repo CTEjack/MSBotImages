@@ -6,8 +6,8 @@
         {
             "type": "TextBlock",
             "text": "${title}",
-            "size": "large",
-            "weight": "bolder",
+            "size": "Large",
+            "weight": "Bolder",
             "isSubtle": true
         },
         {
@@ -74,6 +74,40 @@
                     "type": "Action.OpenUrl",
                     "title": "Work Package",
                     "url": "https://contextere.com"
+                },
+                {
+                    "type": "Action.ShowCard",
+                    "title": "Feedback",
+                    "card": {
+                        "type": "AdaptiveCard",
+                        "body": [
+                            {
+                                "type": "TextBlock",
+                                "text": "Is this answer relevant to you?"
+                            },
+                            {
+                                "type": "Input.ChoiceSet",
+                                "choices": [
+                                    {
+                                        "title": "Yes",
+                                        "value": "Yes"
+                                    },
+                                    {
+                                        "title": "Sort of",
+                                        "value": "Sort of"
+                                    },
+                                    {
+                                        "title": "No",
+                                        "value": "No"
+                                    }
+                                ],
+                                "placeholder": "Is this answer relevant to you?",
+                                "isMultiSelect": true,
+                                "separator": true,
+                                "id": "UserFeedback"
+                            }
+                        ]
+                    }
                 }
             ]
         }

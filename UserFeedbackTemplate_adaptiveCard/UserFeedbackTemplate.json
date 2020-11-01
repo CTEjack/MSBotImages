@@ -1,0 +1,64 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.2",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "This card's action will show another card"
+        },
+        {
+            "type": "Input.ChoiceSet",
+            "choices": [
+                {
+                    "title": "Choice 1",
+                    "value": "Choice 1"
+                },
+                {
+                    "title": "Choice 2",
+                    "value": "Choice 2"
+                }
+            ],
+            "placeholder": "Placeholder text",
+            "isMultiSelect": true,
+            "separator": true,
+            "id": "Feedback"
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.ShowCard",
+            "title": "Feedback",
+            "card": {
+                "type": "AdaptiveCard",
+                "body": [
+                    {
+                        "type": "TextBlock",
+                        "text": "Is this answer relevant to you?"
+                    },
+                    {
+                        "type": "Input.ChoiceSet",
+                        "choices": [
+                            {
+                                "title": "Yes",
+                                "value": "Yes"
+                            },
+                            {
+                                "title": "Sort of",
+                                "value": "Sort of"
+                            },
+                            {
+                                "title": "No",
+                                "value": "No"
+                            }
+                        ],
+                        "placeholder": "Is this answer relevant to you?",
+                        "isMultiSelect": true,
+                        "separator": true,
+                        "id": "UserFeedback"
+                    }
+                ]
+            }
+        }
+    ]
+}

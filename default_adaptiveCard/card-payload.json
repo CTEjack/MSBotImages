@@ -1,0 +1,57 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.2",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc condimentum eleifend eros in malesuada. Nullam eget arcu interdum, imperdiet massa id, maximus dolor. Nunc tincidunt nibh risus, ac luctus massa pharetra eget. Proin egestas, felis sed aliquam pellentesque, massa metus tempor dolor, ut tempus libero lectus id quam.",
+            "spacing": "ExtraLarge",
+            "wrap": true
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Work Package",
+                    "url": "https://contextere.com"
+                },
+                {
+                    "type": "Action.ShowCard",
+                    "title": "Feedback",
+                    "card": {
+                        "type": "AdaptiveCard",
+                        "body": [
+                            {
+                                "type": "TextBlock",
+                                "text": "Is this answer relevant to you?"
+                            },
+                            {
+                                "type": "Input.ChoiceSet",
+                                "choices": [
+                                    {
+                                        "title": "Yes",
+                                        "value": "Yes"
+                                    },
+                                    {
+                                        "title": "Sort of",
+                                        "value": "Sort of"
+                                    },
+                                    {
+                                        "title": "No",
+                                        "value": "No"
+                                    }
+                                ],
+                                "placeholder": "Is this answer relevant to you?",
+                                "isMultiSelect": true,
+                                "separator": true,
+                                "id": "UserFeedback"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

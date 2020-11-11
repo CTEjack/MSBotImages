@@ -1,0 +1,147 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.2",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "A207 Alarm",
+            "size": "Large",
+            "weight": "Bolder",
+            "isSubtle": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "A207 (Cooler Freeze Protection)  This alarm indicates that cooler EWT or LWT is less than Brine Freeze (BR.FZ). When this alarm occurs, chiller will shut down; the cooler pump will continue to run a minimum of 5 minutes if control enabled. Both EWT and LWT must be at least 6 F (3.3 C) above the brine freeze point (BR.FZ) to clear the alarm. The alarm will be cleared automatically for the first time, then manual reset will be required thereafter.",
+            "spacing": "Large",
+            "wrap": true,
+            "separator": true
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Probably Cause:",
+                            "wrap": true,
+                            "height": "stretch",
+                            "size": "Large",
+                            "color": "Dark",
+                            "fontType": "Default",
+                            "isSubtle": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Faulty thermistor, low water flow, faulty cooler water.",
+                            "wrap": true,
+                            "horizontalAlignment": "Right",
+                            "height": "stretch"
+                        }
+                    ],
+                    "horizontalAlignment": "Right"
+                }
+            ],
+            "separator": true,
+            "spacing": "ExtraLarge"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Reset Method:",
+                            "wrap": true,
+                            "height": "stretch",
+                            "size": "Large",
+                            "color": "Dark",
+                            "isSubtle": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Both EWT and LWT must be at least 6 F (3.3 C) above Brine Freeze point (BR.FZ). Automatic for first, Manual reset thereafter.",
+                            "wrap": true,
+                            "horizontalAlignment": "Right",
+                            "separator": true
+                        }
+                    ]
+                }
+            ],
+            "separator": true,
+            "spacing": "ExtraLarge"
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "More About This Alarm",
+                    "url": ""
+                },
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Operations Manual",
+                    "url": ""
+                },
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Work Package",
+                    "url": ""
+                },
+                {
+                    "type": "Action.ShowCard",
+                    "title": "Feedback",
+                    "card": {
+                        "type": "AdaptiveCard",
+                        "body": [
+                            {
+                                "type": "TextBlock",
+                                "text": "Is this answer relevant to you?"
+                            },
+                            {
+                                "type": "Input.ChoiceSet",
+                                "choices": [
+                                    {
+                                        "title": "Yes",
+                                        "value": "Yes"
+                                    },
+                                    {
+                                        "title": "Sort of",
+                                        "value": "Sort of"
+                                    },
+                                    {
+                                        "title": "No",
+                                        "value": "No"
+                                    }
+                                ],
+                                "placeholder": "Is this answer relevant to you?",
+                                "isMultiSelect": true,
+                                "separator": true,
+                                "id": "UserFeedback"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

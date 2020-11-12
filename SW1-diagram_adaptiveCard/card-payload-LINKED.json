@@ -1,0 +1,163 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "size": "Large",
+            "weight": "Bolder",
+            "text": "${title}"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "height": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${answer}",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "${thumbURL}",
+                            "horizontalAlignment": "Right",
+                            "selectAction": {
+                                "type": "Action.OpenUrl",
+                                "url": "${viewImg}"
+                            },
+                            "size": "Large"
+                        }
+                    ],
+                    "width": "auto"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "This unit has been flagged in a product recall",
+                            "wrap": true,
+                            "separator": true,
+                            "spacing": "ExtraLarge",
+                            "size": "Large",
+                            "isSubtle": true
+                        }
+                    ]
+                }
+            ],
+            "separator": true,
+            "spacing": "ExtraLarge"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Mandatory Safety Rework:",
+                            "wrap": true,
+                            "size": "ExtraLarge",
+                            "color": "Attention",
+                            "isSubtle": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Service Bulletin DSB14-0014D",
+                            "wrap": true,
+                            "horizontalAlignment": "Right",
+                            "spacing": "None"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Control Circuit Breaker Recall",
+                            "wrap": true,
+                            "horizontalAlignment": "Right",
+                            "spacing": "None",
+                            "weight": "Bolder"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "None"
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Service Bulletin",
+                    "url": "${taskItemUrl}"
+                },
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "SW1 info",
+                    "url": "${viewImg}"
+                },
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Work Package",
+                    "url": "${taskItemUrl}"
+                },
+                {
+                    "type": "Action.ShowCard",
+                    "title": "Feedback",
+                    "card": {
+                        "type": "AdaptiveCard",
+                        "body": [
+                            {
+                                "type": "TextBlock",
+                                "text": "Is this answer relevant to you?"
+                            },
+                            {
+                                "type": "Input.ChoiceSet",
+                                "choices": [
+                                    {
+                                        "title": "Yes",
+                                        "value": "Yes"
+                                    },
+                                    {
+                                        "title": "Sort of",
+                                        "value": "Sort of"
+                                    },
+                                    {
+                                        "title": "No",
+                                        "value": "No"
+                                    }
+                                ],
+                                "placeholder": "Is this answer relevant to you?",
+                                "isMultiSelect": true,
+                                "separator": true,
+                                "id": "UserFeedback"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.2"
+}

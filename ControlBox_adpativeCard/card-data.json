@@ -1,0 +1,7 @@
+{
+    "title": "Control Box Maintenance for 30RAP010-030",
+    "answer": "The control panel for 30RAP100-150 208/230 v and 380 v units has two 24-v fans installed at the right side of the panel to modulate the inside temperature of the control box. These two fans are controlled by a temperature switch. The temperature switch closes at 120 F and opens at 105 F. The inlet filter is located at the left side of the control box. Inspect the inlet filter and fan outlet screen every three months, clean as needed.",
+    "viewImg": "https://contextere.blob.core.windows.net/hvac/control-box_large.png",
+    "taskItemUrl":"https://contextere.com",
+    "thumbURL": "https://contextere.blob.core.windows.net/hvac/control-box_thumb.png"
+}

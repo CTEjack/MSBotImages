@@ -1,7 +1,10 @@
 {
     "title": "Enable/ Off/Remote Control switch (SW1)",
-    "answer": "Electronic Expansion Valve (EXV)  See Fig. 40 for a cutaway view of the EXV. High-pressure liquid refrigerant enters valve through the top. As refrigerant passes through the orifice, pressure drops and refrigerant changes to a 2-phase condition (liquid and vapor). The electronic expansion valve operates through an electronically controlled activation of a stepper motor. The stepper motor stays in position, unless power pulses initiate the two discrete sets of motor stator windings for rotation in either direction. The direction depends on the phase relationship of the power pulses.",
+    "answer": "The Enable/ Off/Remote Control switch (SW1) is a 3-position switch used to control the chiller. When switched to the Enable position the chiller is under its own control. Move the switch to the Off position to shut the chiller down. Move the switch to the Remote Control position and a field-installed dry contact can be used to start the chiller. The contacts must be capable of handling a 24 vac, 50-mA load. In the Enable and Remote Control (dry contacts closed) positions, the chiller is allowed to operate and respond to the scheduling configuration, CCN configuration, and set point data. See Fig. 22.",
     "viewImg": "https://contextere.blob.core.windows.net/hvac/SW1_large.png",
     "taskItemUrl":"https://contextere.com",
-    "thumbURL": "https://contextere.blob.core.windows.net/hvac/SW1_thumb.png"
+    "thumbURL": "https://contextere.blob.core.windows.net/hvac/SW1_thumb.png",
+    "userImgThumb":"https://contextere.blob.core.windows.net/hvac/Carrier-note_thumb.jpg",
+    "userImg":"https://contextere.blob.core.windows.net/hvac/Carrier-note_large.jpg",
+    "userImgText":"\"Caution!! Do Not Remove Cap! Packing leaks. Non-Adjustable Packing According to Google Photo. Tight Cap Does Not Leak. If You Must Remove, Be Prepared. Carrier C.S. 4/22/16\""
 }

@@ -49,7 +49,7 @@
                     "items": [
                         {
                             "type": "TextBlock",
-                            "text": "This unit has been flagged in a product recall",
+                            "text": "Another technician has uploaded an image relevant to this query:",
                             "wrap": true,
                             "separator": true,
                             "spacing": "ExtraLarge",
@@ -71,34 +71,33 @@
                     "items": [
                         {
                             "type": "TextBlock",
-                            "text": "Mandatory Safety Rework:",
+                            "text": "${userImgText}",
                             "wrap": true,
-                            "size": "ExtraLarge",
-                            "color": "Attention",
+                            "color": "Dark",
                             "isSubtle": true
                         }
-                    ]
+                    ],
+                    "verticalContentAlignment": "Center"
                 },
                 {
                     "type": "Column",
-                    "width": "stretch",
+                    "width": "auto",
                     "items": [
                         {
-                            "type": "TextBlock",
-                            "text": "Service Bulletin DSB14-0014D",
-                            "wrap": true,
-                            "horizontalAlignment": "Right",
-                            "spacing": "None"
-                        },
-                        {
-                            "type": "TextBlock",
-                            "text": "Control Circuit Breaker Recall",
-                            "wrap": true,
-                            "horizontalAlignment": "Right",
-                            "spacing": "None",
-                            "weight": "Bolder"
+                            "type": "Image",
+                            "url": "${userImgThumb}",
+                            "horizontalAlignment": "Center",
+                            "size": "Stretch"
                         }
-                    ]
+                    ],
+                    "backgroundImage": {
+                        "horizontalAlignment": "Center"
+                    },
+                    "height": "stretch",
+                    "selectAction": {
+                        "type": "Action.OpenUrl",
+                        "url": "${userImg}"
+                    }
                 }
             ],
             "spacing": "None"
@@ -108,13 +107,13 @@
             "actions": [
                 {
                     "type": "Action.OpenUrl",
-                    "title": "Service Bulletin",
+                    "title": "More SW1 Info",
                     "url": "${taskItemUrl}"
                 },
                 {
                     "type": "Action.OpenUrl",
-                    "title": "SW1 info",
-                    "url": "${viewImg}"
+                    "title": "View User Image",
+                    "url": "${userImg}"
                 },
                 {
                     "type": "Action.OpenUrl",

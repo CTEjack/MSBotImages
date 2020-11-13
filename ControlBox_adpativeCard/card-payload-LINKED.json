@@ -36,7 +36,7 @@
                                 "type": "Action.OpenUrl",
                                 "url": "${viewImg}"
                             },
-                            "width": "250px"
+                            "size": "Large"
                         }
                     ]
                 }
@@ -75,7 +75,7 @@
                             "type": "TextBlock",
                             "text": "Mandatory Safety Rework:",
                             "wrap": true,
-                            "size": "ExtraLarge",
+                            "size": "Large",
                             "color": "Attention",
                             "isSubtle": true
                         }
@@ -102,8 +102,7 @@
                         }
                     ]
                 }
-            ],
-            "spacing": "None"
+            ]
         },
         {
             "type": "ActionSet",

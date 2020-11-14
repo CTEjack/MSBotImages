@@ -67,13 +67,13 @@
             "actions": [
                 {
                     "type": "Action.OpenUrl",
-                    "title": "More Sensors",
-                    "url": "https://contextere.com"
+                    "title": "More Info",
+                    "url": "${taskItemUrl}"
                 },
                 {
                     "type": "Action.OpenUrl",
                     "title": "Work Package",
-                    "url": "https://contextere.com"
+                    "url": "${workPackageUrl}"
                 },
                 {
                     "type": "Action.ShowCard",

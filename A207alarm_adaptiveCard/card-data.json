@@ -1,12 +1,11 @@
 {
     "title": "A207 Alarm",
-    "iconURL":"https://contextere.blob.core.windows.net/hvac/Themometer_icon_blue_50x50.png",
     "answer": "A207 (Cooler Freeze Protection)  This alarm indicates that cooler EWT or LWT is less than Brine Freeze (BR.FZ). When this alarm occurs, chiller will shut down; the cooler pump will continue to run a minimum of 5 minutes if control enabled. Both EWT and LWT must be at least 6 F (3.3 C) above the brine freeze point (BR.FZ) to clear the alarm. The alarm will be cleared automatically for the first time, then manual reset will be required thereafter.",
     "alarmCauseTitle":"Probably Cause:",
     "alarmCause":"Faulty thermistor, low water flow, faulty cooler water.",
     "alarmResetTitle":"Reset Method:",
     "alarmReset":"Both EWT and LWT must be at least 6 F (3.3 C) above Brine Freeze point (BR.FZ). Automatic for first, Manual reset thereafter.",
-    "moreInfoUrl":"",
-    "opsManualURL":"",
+    "workPackageUrl":"",
+    "opsManualUrl":"",
     "taskItemUrl":""
 }

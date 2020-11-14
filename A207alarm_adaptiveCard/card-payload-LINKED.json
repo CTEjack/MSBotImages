@@ -94,18 +94,18 @@
             "actions": [
                 {
                     "type": "Action.OpenUrl",
-                    "title": "More About This Alarm",
-                    "url": "${moreInfoUrl}"
+                    "title": "More Info",
+                    "url": "${taskItemUrl}"
                 },
                 {
                     "type": "Action.OpenUrl",
                     "title": "Operations Manual",
-                    "url": "${opsManualURL}"
+                    "url": "${opsManualUrl}"
                 },
                 {
                     "type": "Action.OpenUrl",
                     "title": "Work Package",
-                    "url": "${taskItemUrl}"
+                    "url": "${workPackageUrl}"
                 },
                 {
                     "type": "Action.ShowCard",

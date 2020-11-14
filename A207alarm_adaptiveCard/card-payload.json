@@ -94,7 +94,7 @@
             "actions": [
                 {
                     "type": "Action.OpenUrl",
-                    "title": "More About This Alarm",
+                    "title": "More Info",
                     "url": ""
                 },
                 {

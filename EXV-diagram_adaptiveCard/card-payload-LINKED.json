@@ -17,7 +17,7 @@
                     "items": [
                         {
                             "type": "TextBlock",
-                            "text": "${botOutput}",
+                            "text": "${answer}",
                             "wrap": true
                         }
                     ]
@@ -28,11 +28,7 @@
                         {
                             "type": "Image",
                             "url": "${thumbURL}",
-                            "horizontalAlignment": "Right",
-                            "selectAction": {
-                                "type": "Action.OpenUrl",
-                                "url": "${viewImg}"
-                            }
+                            "horizontalAlignment": "Right"
                         }
                     ],
                     "width": "auto"
@@ -44,13 +40,13 @@
             "actions": [
                 {
                     "type": "Action.OpenUrl",
-                    "title": "View Cutaway",
-                    "url": "${viewImg}"
+                    "title": "View Figure",
+                    "url": "${taskItemUrl}"
                 },
                 {
                     "type": "Action.OpenUrl",
                     "title": "Work Package",
-                    "url": "${taskItemUrl}"
+                    "url": "${workPackageUrl}"
                 },
                 {
                     "type": "Action.ShowCard",

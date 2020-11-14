@@ -28,11 +28,7 @@
                         {
                             "type": "Image",
                             "url": "https://contextere.blob.core.windows.net/hvac/EXV_thumb.png",
-                            "horizontalAlignment": "Right",
-                            "selectAction": {
-                                "type": "Action.OpenUrl",
-                                "url": "https://contextere.blob.core.windows.net/hvac/EXV_cutaway.png"
-                            }
+                            "horizontalAlignment": "Right"
                         }
                     ],
                     "width": "auto"
@@ -44,13 +40,13 @@
             "actions": [
                 {
                     "type": "Action.OpenUrl",
-                    "title": "View Cutaway",
-                    "url": "https://contextere.blob.core.windows.net/hvac/EXV_cutaway.png"
+                    "title": "View Figure",
+                    "url": "${taskItemUrl}"
                 },
                 {
                     "type": "Action.OpenUrl",
                     "title": "Work Package",
-                    "url": "https://contextere.com"
+                    "url": ""
                 },
                 {
                     "type": "Action.ShowCard",

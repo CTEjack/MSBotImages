@@ -29,10 +29,6 @@
                             "type": "Image",
                             "url": "https://contextere.blob.core.windows.net/hvac/SW1_thumb.png",
                             "horizontalAlignment": "Right",
-                            "selectAction": {
-                                "type": "Action.OpenUrl",
-                                "url": "https://contextere.blob.core.windows.net/hvac/SW1_large.png"
-                            },
                             "size": "Large"
                         }
                     ],
@@ -93,11 +89,7 @@
                     "backgroundImage": {
                         "horizontalAlignment": "Center"
                     },
-                    "height": "stretch",
-                    "selectAction": {
-                        "type": "Action.OpenUrl",
-                        "url": "https://contextere.blob.core.windows.net/hvac/Carrier-note_large.jpg"
-                    }
+                    "height": "stretch"
                 }
             ],
             "spacing": "None"
@@ -107,18 +99,13 @@
             "actions": [
                 {
                     "type": "Action.OpenUrl",
-                    "title": "More SW1 Info",
-                    "url": "https://contextere.com"
-                },
-                {
-                    "type": "Action.OpenUrl",
-                    "title": "View User Image",
-                    "url": "https://contextere.blob.core.windows.net/hvac/Carrier-note_large.jpg"
+                    "title": "More Info",
+                    "url": ""
                 },
                 {
                     "type": "Action.OpenUrl",
                     "title": "Work Package",
-                    "url": "https://contextere.com"
+                    "url": "${workPackageUrl}"
                 },
                 {
                     "type": "Action.ShowCard",

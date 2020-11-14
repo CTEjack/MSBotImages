@@ -29,10 +29,6 @@
                             "type": "Image",
                             "url": "${thumbURL}",
                             "horizontalAlignment": "Right",
-                            "selectAction": {
-                                "type": "Action.OpenUrl",
-                                "url": "${viewImg}"
-                            },
                             "size": "Large"
                         }
                     ],
@@ -93,11 +89,7 @@
                     "backgroundImage": {
                         "horizontalAlignment": "Center"
                     },
-                    "height": "stretch",
-                    "selectAction": {
-                        "type": "Action.OpenUrl",
-                        "url": "${userImg}"
-                    }
+                    "height": "stretch"
                 }
             ],
             "spacing": "None"
@@ -107,18 +99,13 @@
             "actions": [
                 {
                     "type": "Action.OpenUrl",
-                    "title": "More SW1 Info",
+                    "title": "More Info",
                     "url": "${taskItemUrl}"
-                },
-                {
-                    "type": "Action.OpenUrl",
-                    "title": "View User Image",
-                    "url": "${userImg}"
                 },
                 {
                     "type": "Action.OpenUrl",
                     "title": "Work Package",
-                    "url": "${taskItemUrl}"
+                    "url": "${workPackageUrl}"
                 },
                 {
                     "type": "Action.ShowCard",

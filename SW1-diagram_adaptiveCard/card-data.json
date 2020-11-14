@@ -1,8 +1,8 @@
 {
     "title": "Enable/ Off/Remote Control switch (SW1)",
     "answer": "The Enable/ Off/Remote Control switch (SW1) is a 3-position switch used to control the chiller. When switched to the Enable position the chiller is under its own control. Move the switch to the Off position to shut the chiller down. Move the switch to the Remote Control position and a field-installed dry contact can be used to start the chiller. The contacts must be capable of handling a 24 vac, 50-mA load. In the Enable and Remote Control (dry contacts closed) positions, the chiller is allowed to operate and respond to the scheduling configuration, CCN configuration, and set point data. See Fig. 22.",
-    "viewImg": "https://contextere.blob.core.windows.net/hvac/SW1_large.png",
-    "taskItemUrl":"https://contextere.com",
+    "taskItemUrl":"",
+    "workPackageUrl ":"",
     "thumbURL": "https://contextere.blob.core.windows.net/hvac/SW1_thumb.png",
     "userImgThumb":"https://contextere.blob.core.windows.net/hvac/Carrier-note_thumb.jpg",
     "userImg":"https://contextere.blob.core.windows.net/hvac/Carrier-note_large.jpg",

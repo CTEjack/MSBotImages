@@ -36,11 +36,7 @@
                         }
                     ]
                 }
-            ],
-            "selectAction": {
-                "type": "Action.OpenUrl",
-                "url": "${taskItemUrl}"
-            }
+            ]
         },
         {
             "type": "ColumnSet",

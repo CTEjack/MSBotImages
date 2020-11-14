@@ -32,15 +32,15 @@
                             "type": "Image",
                             "url": "https://contextere.blob.core.windows.net/hvac/control-box_thumb.png",
                             "horizontalAlignment": "Right",
-                            "selectAction": {
-                                "type": "Action.OpenUrl",
-                                "url": "https://contextere.blob.core.windows.net/hvac/control-box_large.png"
-                            },
-                            "width": "250px"
+                            "size": "Large"
                         }
                     ]
                 }
-            ]
+            ],
+            "selectAction": {
+                "type": "Action.OpenUrl",
+                "url": ""
+            }
         },
         {
             "type": "ColumnSet",
@@ -75,7 +75,7 @@
                             "type": "TextBlock",
                             "text": "Mandatory Safety Rework:",
                             "wrap": true,
-                            "size": "ExtraLarge",
+                            "size": "Large",
                             "color": "Attention",
                             "isSubtle": true
                         }
@@ -102,8 +102,7 @@
                         }
                     ]
                 }
-            ],
-            "spacing": "None"
+            ]
         },
         {
             "type": "ActionSet",
@@ -111,17 +110,17 @@
                 {
                     "type": "Action.OpenUrl",
                     "title": "Service Bulletin",
-                    "url": "https://contextere.com"
+                    "url": ""
                 },
                 {
                     "type": "Action.OpenUrl",
                     "title": "More Info",
-                    "url": "https://contextere.com"
+                    "url": ""
                 },
                 {
                     "type": "Action.OpenUrl",
                     "title": "Work Package",
-                    "url": "https://contextere.com"
+                    "url": ""
                 },
                 {
                     "type": "Action.ShowCard",

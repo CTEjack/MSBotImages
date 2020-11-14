@@ -32,15 +32,15 @@
                             "type": "Image",
                             "url": "${thumbURL}",
                             "horizontalAlignment": "Right",
-                            "selectAction": {
-                                "type": "Action.OpenUrl",
-                                "url": "${viewImg}"
-                            },
                             "size": "Large"
                         }
                     ]
                 }
-            ]
+            ],
+            "selectAction": {
+                "type": "Action.OpenUrl",
+                "url": "${taskItemUrl}"
+            }
         },
         {
             "type": "ColumnSet",
@@ -110,7 +110,7 @@
                 {
                     "type": "Action.OpenUrl",
                     "title": "Service Bulletin",
-                    "url": "${taskItemUrl}"
+                    "url": "${serviceBulletinUrl}"
                 },
                 {
                     "type": "Action.OpenUrl",
@@ -120,7 +120,7 @@
                 {
                     "type": "Action.OpenUrl",
                     "title": "Work Package",
-                    "url": "${taskItemUrl}"
+                    "url": "${workPackageUrl}"
                 },
                 {
                     "type": "Action.ShowCard",

@@ -71,11 +71,6 @@
                     "url": "${taskItemUrl}"
                 },
                 {
-                    "type": "Action.OpenUrl",
-                    "title": "Work Package",
-                    "url": "${workPackageUrl}"
-                },
-                {
                     "type": "Action.ShowCard",
                     "title": "Feedback",
                     "card": {

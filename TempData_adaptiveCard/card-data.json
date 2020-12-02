@@ -1,9 +1,8 @@
 {
-    "title": "Current Compressor Temperature",
-    "currTemp": "265",
-    "tempFormat": "°F",
+    "title": "Current Leaving Water Temperature (LWT)",
+    "currTemp": "",
+    "tempFormat": "°C",
     "iconURL":"https://contextere.blob.core.windows.net/hvac/Themometer_icon_50x50.png",
     "warnText":"*WARNING* advanced scroll temperature protection will activate when the internal temperature reaches approximately 300°F",
-    "taskItemUrl":"",
-    "workPackageUrl":""
+    "taskItemUrl":""
 }

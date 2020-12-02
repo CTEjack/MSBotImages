@@ -5,7 +5,6 @@
     "alarmCause":"Faulty thermistor, low water flow, faulty cooler water.",
     "alarmResetTitle":"Reset Method:",
     "alarmReset":"Both EWT and LWT must be at least 6 F (3.3 C) above Brine Freeze point (BR.FZ). Automatic for first, Manual reset thereafter.",
-    "workPackageUrl":"",
     "opsManualUrl":"",
     "taskItemUrl":""
 }

@@ -40,13 +40,13 @@
             "actions": [
                 {
                     "type": "Action.OpenUrl",
-                    "title": "View Figure",
+                    "title": "More Info",
                     "url": "${taskItemUrl}"
                 },
                 {
                     "type": "Action.OpenUrl",
-                    "title": "Work Package",
-                    "url": "${workPackageUrl}"
+                    "title": "Operations Manual",
+                    "url": "${opsManualUrl}"
                 },
                 {
                     "type": "Action.ShowCard",

@@ -44,8 +44,8 @@
                 },
                 {
                     "type": "Action.OpenUrl",
-                    "title": "Work Package",
-                    "url": "${workPackageUrl}"
+                    "title": "Operations Manual",
+                    "url": "${opsManualUrl}"
                 },
                 {
                     "type": "Action.ShowCard",

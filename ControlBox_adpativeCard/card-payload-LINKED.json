@@ -105,18 +105,13 @@
             "actions": [
                 {
                     "type": "Action.OpenUrl",
-                    "title": "Service Bulletin",
-                    "url": "${serviceBulletinUrl}"
-                },
-                {
-                    "type": "Action.OpenUrl",
                     "title": "More Info",
                     "url": "${taskItemUrl}"
                 },
                 {
                     "type": "Action.OpenUrl",
-                    "title": "Work Package",
-                    "url": "${workPackageUrl}"
+                    "title": "Service Bulletin",
+                    "url": "${serviceBulletinUrl}"
                 },
                 {
                     "type": "Action.ShowCard",

@@ -1,0 +1,6 @@
+{
+    "title": "Alarm Reset",
+    "text": "ALARM ROUTING CONTROL Alarms recorded on the chiller can be routed through the CCN. To configure this option, the ComfortLink control must be configured to determine which CCN elements will receive and process alarms. Input for the decision consists of eight digits, each of which can be set to either 0 or 1. Setting a digit to 1 specifies that alarms will be sent to the system element that corresponds to that digit. Setting all digits to 0 disables alarm processing. The factory default is 00000000. See Fig. 23. The default setting is based on the assumption that the unit will not be connected to a network. If the network does not contain a ComfortVIEW, ComfortWORKS™, TeLink, DataLINK™, or BAClink module, enabling this feature will only add unnecessary activity to the CCN communication bus.",
+    "image": "https://contextere.blob.core.windows.net/hvac/QA1_Page30Fig.23AlarmRoutingControl.jpeg",
+    "pdf":""
+}

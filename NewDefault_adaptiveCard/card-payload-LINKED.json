@@ -1,0 +1,81 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.2",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "${title}",
+            "size": "Large",
+            "weight": "Bolder",
+            "isSubtle": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "${text}",
+            "spacing": "Large",
+            "wrap": true,
+            "separator": true
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "${image}"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Large"
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "View More",
+                    "url": "${pdf}"
+                },
+                {
+                    "type": "Action.ShowCard",
+                    "title": "Feedback",
+                    "card": {
+                        "type": "AdaptiveCard",
+                        "body": [
+                            {
+                                "type": "TextBlock",
+                                "text": "Is this answer relevant to you?"
+                            },
+                            {
+                                "type": "Input.ChoiceSet",
+                                "choices": [
+                                    {
+                                        "title": "Yes",
+                                        "value": "Yes"
+                                    },
+                                    {
+                                        "title": "Sort of",
+                                        "value": "Sort of"
+                                    },
+                                    {
+                                        "title": "No",
+                                        "value": "No"
+                                    }
+                                ],
+                                "placeholder": "Is this answer relevant to you?",
+                                "isMultiSelect": true,
+                                "separator": true,
+                                "id": "UserFeedback"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

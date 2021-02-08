@@ -1,0 +1,83 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.2",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "HvacBot is here to help",
+            "weight": "Bolder",
+            "size": "ExtraLarge"
+        },
+        {
+            "type": "TextBlock",
+            "text": "HvacBot is a machine learning driven advanced virtual assistant for HVAC technicians working on industrial jobsites. This assistant provides technicians with real-time work guidance by automatically extracting contextually relevant information from industrial enterprise data.",
+            "spacing": "Large",
+            "wrap": true,
+            "separator": true
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "What it can do:",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "&#8226; Provide real-time answers to technical HVAC questions",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "&#8226; Deliver related documents and media such as operations manuals, service bulletins, and diagrams",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "&#8226; Provide critical guidance to technicians as they inspect, repair, and operate complex industrial HVAC equipment",
+                            "wrap": true
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Large"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "ActionSet",
+                            "actions": [
+                                {
+                                    "type": "Action.OpenUrl",
+                                    "title": "Take a tour",
+                                    "url": "${tourURL}"
+                                },
+                                {
+                                    "type": "Action.OpenUrl",
+                                    "title": "See an example",
+                                    "url": "${exampleURL}"
+                                },
+                                                                {
+                                    "type": "Action.OpenUrl",
+                                    "title": "About Contextere",
+                                    "url": "https://contextere.com/"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

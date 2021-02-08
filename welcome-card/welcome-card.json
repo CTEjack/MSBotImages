@@ -61,14 +61,9 @@
                                 {
                                     "type": "Action.OpenUrl",
                                     "title": "Take a tour",
-                                    "url": "${tourURL}"
+                                    "url": "https://contextere.z9.web.core.windows.net/tour"
                                 },
                                 {
-                                    "type": "Action.OpenUrl",
-                                    "title": "See an example",
-                                    "url": "${exampleURL}"
-                                },
-                                                                {
                                     "type": "Action.OpenUrl",
                                     "title": "About Contextere",
                                     "url": "https://contextere.com/"

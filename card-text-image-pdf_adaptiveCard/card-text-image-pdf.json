@@ -97,7 +97,6 @@
                                                     }
                                                 ],
                                                 "placeholder": "Is this answer relevant to you?",
-                                                "isMultiSelect": true,
                                                 "separator": true,
                                                 "id": "UserFeedback"
                                             }

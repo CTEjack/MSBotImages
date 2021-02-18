@@ -61,7 +61,7 @@
                                 {
                                     "type": "Action.OpenUrl",
                                     "title": "Take a tour",
-                                    "url": "https://contextere.z9.web.core.windows.net/tour"
+                                    "url": "https://teams.microsoft.com/l/task/be5caee0-f2bc-11ea-b597-ef970e2f5141?url=https://contextere.z9.web.core.windows.net/tour&height=large&width=large"
                                 },
                                 {
                                     "type": "Action.OpenUrl",

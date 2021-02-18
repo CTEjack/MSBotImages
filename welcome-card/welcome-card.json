@@ -5,13 +5,13 @@
     "body": [
         {
             "type": "TextBlock",
-            "text": "HvacBot is here to help",
+            "text": "Contextere is here to help",
             "weight": "Bolder",
             "size": "ExtraLarge"
         },
         {
             "type": "TextBlock",
-            "text": "HvacBot is a machine learning driven advanced virtual assistant for HVAC technicians working on industrial jobsites. This assistant provides technicians with real-time work guidance by automatically extracting contextually relevant information from industrial enterprise data.",
+            "text": "The Contextere Advance Virtual Assistant provides AI-enabled work instruction and insights to HVAC technicians working on industrial jobsites. This assistant provides technicians with real-time work guidance by automatically extracting contextually relevant information from industrial PDF, handwriting, and other non-standard sources.",
             "spacing": "Large",
             "wrap": true,
             "separator": true
@@ -25,7 +25,7 @@
                     "items": [
                         {
                             "type": "TextBlock",
-                            "text": "What it can do:",
+                            "text": "What we can do:",
                             "wrap": true
                         },
                         {

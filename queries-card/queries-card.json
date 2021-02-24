@@ -27,10 +27,10 @@
             "inlines": [
                 {
                     "type": "TextRun",
-                    "text": "What is the use of SW1 switch?",
+                    "text": "\"What is the use of SW1 switch?\"",
                     "weight": "Bolder",
                     "fontType": "Monospace",
-                    "size": "Large",
+                    "size": "Medium",
                     "color": "Accent"
                 }
             ]
@@ -40,10 +40,10 @@
             "inlines": [
                 {
                     "type": "TextRun",
-                    "text": "Which information is transmitted between modules in Main Base Board?",
+                    "text": "\"Which information is transmitted between modules in Main Base Board?\"",
                     "weight": "Bolder",
                     "fontType": "Monospace",
-                    "size": "Large",
+                    "size": "Medium",
                     "color": "Accent"
                 }
             ]
@@ -53,10 +53,10 @@
             "inlines": [
                 {
                     "type": "TextRun",
-                    "text": "Where can I find Carrier Comfort Network tables?",
+                    "text": "\"Where can I find Carrier Comfort Network tables?\"",
                     "weight": "Bolder",
                     "fontType": "Monospace",
-                    "size": "Large",
+                    "size": "Medium",
                     "color": "Accent"
                 }
             ]

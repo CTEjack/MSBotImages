@@ -5,16 +5,19 @@
     "body": [
         {
             "type": "TextBlock",
-            "text": "Contextere is here to help",
+            "text": "We are here to help",
             "weight": "Bolder",
             "size": "ExtraLarge"
         },
         {
+            "type": "Image",
+            "url": "https://contextere.blob.core.windows.net/hvac/welcome-card_header-image.jpg"
+        },
+        {
             "type": "TextBlock",
-            "text": "The Contextere Advance Virtual Assistant provides AI-enabled work instruction and insights to HVAC technicians working on industrial jobsites. This assistant provides technicians with real-time work guidance by automatically extracting contextually relevant information from industrial PDF, handwriting, and other non-standard sources.",
+            "text": "The Contextere Advanced Virtual Assistant (AVA) combines automated data extraction with an ML-based insight engine, using NLP and neural networks to extract meaning from industrial enterprise data and determine the appropriate contextually relevant micro-guidance or insights. The Contextere AVA is an ML question-answering recommendation platform designed specifically for industrial technicians and operators.",
             "spacing": "Large",
-            "wrap": true,
-            "separator": true
+            "wrap": true
         },
         {
             "type": "ColumnSet",
@@ -25,22 +28,23 @@
                     "items": [
                         {
                             "type": "TextBlock",
-                            "text": "What we can do:",
+                            "text": "The Contextere Advanced Virtual Assistant can:",
+                            "wrap": true,
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "&#8226; Automatically extract information, meaning, and semantic relationships from structured, unstructured, and live industrial enterprise data including manuals, work orders, forms, and equipment sensor data.",
                             "wrap": true
                         },
                         {
                             "type": "TextBlock",
-                            "text": "&#8226; Provide real-time answers to technical HVAC questions",
+                            "text": "&#8226; Understand context - user location and role, and equipment location/status - to provide intelligent guidance and curated insights to industrial users.",
                             "wrap": true
                         },
                         {
                             "type": "TextBlock",
-                            "text": "&#8226; Deliver related documents and media such as operations manuals, service bulletins, and diagrams",
-                            "wrap": true
-                        },
-                        {
-                            "type": "TextBlock",
-                            "text": "&#8226; Provide critical guidance to technicians as they inspect, repair, and operate complex industrial HVAC equipment",
+                            "text": "&#8226; Use a natural language conversational interface to provide users with augmented analytics insights and AI-enabled work instructions on desktop, mobile and wearable devices.",
                             "wrap": true
                         }
                     ]

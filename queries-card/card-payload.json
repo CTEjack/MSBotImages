@@ -30,7 +30,7 @@
                     "text": "${q1}",
                     "weight": "Bolder",
                     "fontType": "Monospace",
-                    "size": "Large",
+                    "size": "Medium",
                     "color": "Accent"
                 }
             ]
@@ -43,7 +43,7 @@
                     "text": "${q2}",
                     "weight": "Bolder",
                     "fontType": "Monospace",
-                    "size": "Large",
+                    "size": "Medium",
                     "color": "Accent"
                 }
             ]
@@ -56,7 +56,7 @@
                     "text": "${q3}",
                     "weight": "Bolder",
                     "fontType": "Monospace",
-                    "size": "Large",
+                    "size": "Medium",
                     "color": "Accent"
                 }
             ]

@@ -27,7 +27,7 @@
             "inlines": [
                 {
                     "type": "TextRun",
-                    "text": "\"What is the use of SW1 switch?\"",
+                    "text": "\"Show me the electronic expansion valve\"",
                     "weight": "Bolder",
                     "fontType": "Monospace",
                     "size": "Medium",
@@ -40,7 +40,7 @@
             "inlines": [
                 {
                     "type": "TextRun",
-                    "text": "\"Which information is transmitted between modules in Main Base Board?\"",
+                    "text": "\"How is information transmitted between modules in the Main Base Board?\"",
                     "weight": "Bolder",
                     "fontType": "Monospace",
                     "size": "Medium",
@@ -53,7 +53,7 @@
             "inlines": [
                 {
                     "type": "TextRun",
-                    "text": "\"Where can I find Carrier Comfort Network tables?\"",
+                    "text": "\"What is the SW1 switch for?\"",
                     "weight": "Bolder",
                     "fontType": "Monospace",
                     "size": "Medium",

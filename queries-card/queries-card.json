@@ -5,19 +5,68 @@
             "type": "TextBlock",
             "size": "Medium",
             "weight": "Bolder",
-            "text": "Sample questions"
+            "text": "What can I ask the bot?"
         },
         {
             "type": "TextBlock",
-            "text": "Insert list of sample 30RAP questions",
+            "text": "The Contextere Advanced Virtual Assistant (AVA) is a standardized front-end app experience that enables the user to ask questions and receive answers in real-time using the Microsoft Teams chat environment. This demonstrative ‘bot app’ of the Contextere AVA uses demonstration data from the industrial HVAC domain including extracted text, figures, and images from technical manuals, service bulletins, user submitted notes, and domain-specific documentation. In this live use case, the Contextere AVA would provide commercial HVAC technicians with information to improve their understanding while reducing cognitive load when operating and maintaining complex HVAC systems.",
             "wrap": true
+        },
+        {
+            "type": "Image",
+            "url": "https://contextere.blob.core.windows.net/hvac/Queries-card_header_image.jpg"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Try some of these queries to see what the Contextere AVA can do:",
+            "weight": "Bolder",
+            "wrap": true
+        },
+        {
+            "type": "RichTextBlock",
+            "inlines": [
+                {
+                    "type": "TextRun",
+                    "text": "What is the use of SW1 switch?",
+                    "weight": "Bolder",
+                    "fontType": "Monospace",
+                    "size": "Large",
+                    "color": "Accent"
+                }
+            ]
+        },
+        {
+            "type": "RichTextBlock",
+            "inlines": [
+                {
+                    "type": "TextRun",
+                    "text": "Which information is transmitted between modules in Main Base Board?",
+                    "weight": "Bolder",
+                    "fontType": "Monospace",
+                    "size": "Large",
+                    "color": "Accent"
+                }
+            ]
+        },
+        {
+            "type": "RichTextBlock",
+            "inlines": [
+                {
+                    "type": "TextRun",
+                    "text": "Where can I find Carrier Comfort Network tables?",
+                    "weight": "Bolder",
+                    "fontType": "Monospace",
+                    "size": "Large",
+                    "color": "Accent"
+                }
+            ]
         }
     ],
     "actions": [
         {
             "type": "Action.OpenUrl",
             "title": "Take a Tour",
-            "url": ""
+            "url": "https://teams.microsoft.com/l/task/be5caee0-f2bc-11ea-b597-ef970e2f5141?url=https://contextere.z9.web.core.windows.net/tour&height=large&width=large"
         }
     ],
     "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",

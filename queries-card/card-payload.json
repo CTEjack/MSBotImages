@@ -11,6 +11,55 @@
             "type": "TextBlock",
             "text": "${description}",
             "wrap": true
+        },
+        {
+            "type": "Image",
+            "url": "https://contextere.blob.core.windows.net/hvac/Queries-card_header_image.jpg"
+        },
+        {
+            "type": "TextBlock",
+            "text": "${subheader}",
+            "weight": "Bolder",
+            "wrap": true
+        },
+        {
+            "type": "RichTextBlock",
+            "inlines": [
+                {
+                    "type": "TextRun",
+                    "text": "${q1}",
+                    "weight": "Bolder",
+                    "fontType": "Monospace",
+                    "size": "Large",
+                    "color": "Accent"
+                }
+            ]
+        },
+        {
+            "type": "RichTextBlock",
+            "inlines": [
+                {
+                    "type": "TextRun",
+                    "text": "${q2}",
+                    "weight": "Bolder",
+                    "fontType": "Monospace",
+                    "size": "Large",
+                    "color": "Accent"
+                }
+            ]
+        },
+        {
+            "type": "RichTextBlock",
+            "inlines": [
+                {
+                    "type": "TextRun",
+                    "text": "${q3}",
+                    "weight": "Bolder",
+                    "fontType": "Monospace",
+                    "size": "Large",
+                    "color": "Accent"
+                }
+            ]
         }
     ],
     "actions": [

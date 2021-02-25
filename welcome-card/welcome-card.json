@@ -34,17 +34,17 @@
                         },
                         {
                             "type": "TextBlock",
-                            "text": "&#8226; Automatically extract information, meaning, and semantic relationships from structured, unstructured, and live industrial enterprise data including manuals, work orders, forms, and equipment sensor data.",
+                            "text": "• Automatically extract information, meaning, and semantic relationships from structured, unstructured, and live industrial enterprise data including manuals, work orders, forms, and equipment sensor data.",
                             "wrap": true
                         },
                         {
                             "type": "TextBlock",
-                            "text": "&#8226; Understand context - user location and role, and equipment location/status - to provide intelligent guidance and curated insights to industrial users.",
+                            "text": "• Understand context - user location and role, and equipment location/status - to provide intelligent guidance and curated insights to industrial users.",
                             "wrap": true
                         },
                         {
                             "type": "TextBlock",
-                            "text": "&#8226; Use a natural language conversational interface to provide users with augmented analytics insights and AI-enabled work instructions on desktop, mobile and wearable devices.",
+                            "text": "• Use a natural language conversational interface to provide users with augmented analytics insights and AI-enabled work instructions on desktop, mobile and wearable devices.",
                             "wrap": true
                         }
                     ]

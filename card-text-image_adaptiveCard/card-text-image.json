@@ -42,61 +42,6 @@
                 }
             ],
             "spacing": "Large"
-        },
-        {
-            "type": "ColumnSet",
-            "columns": [
-                {
-                    "type": "Column",
-                    "width": "stretch"
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "horizontalAlignment": "Right",
-                    "items": [
-                        {
-                            "type": "ActionSet",
-                            "actions": [
-                                {
-                                    "type": "Action.ShowCard",
-                                    "title": "Feedback",
-                                    "card": {
-                                        "type": "AdaptiveCard",
-                                        "body": [
-                                            {
-                                                "type": "TextBlock",
-                                                "text": "Is this answer relevant to you?"
-                                            },
-                                            {
-                                                "type": "Input.ChoiceSet",
-                                                "choices": [
-                                                    {
-                                                        "title": "Yes",
-                                                        "value": "Yes"
-                                                    },
-                                                    {
-                                                        "title": "Sort of",
-                                                        "value": "Sort of"
-                                                    },
-                                                    {
-                                                        "title": "No",
-                                                        "value": "No"
-                                                    }
-                                                ],
-                                                "placeholder": "Is this answer relevant to you?",
-                                                "separator": true,
-                                                "id": "UserFeedback"
-                                            }
-                                        ]
-                                    }
-                                }
-                            ],
-                            "horizontalAlignment": "Right"
-                        }
-                    ]
-                }
-            ]
         }
     ]
 }

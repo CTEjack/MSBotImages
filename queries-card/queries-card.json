@@ -3,13 +3,13 @@
     "body": [
         {
             "type": "TextBlock",
-            "size": "Medium",
+            "size": "ExtraLarge",
             "weight": "Bolder",
             "text": "What can I ask the bot?"
         },
         {
             "type": "TextBlock",
-            "text": "The Contextere Advanced Virtual Assistant (AVA) is a standardized front-end app experience that enables the user to ask questions and receive answers in real-time using the Microsoft Teams chat environment. This demonstrative ‘bot app’ of the Contextere AVA uses demonstration data from the industrial HVAC domain including extracted text, figures, and images from technical manuals, service bulletins, user submitted notes, and domain-specific documentation. In this live use case, the Contextere AVA would provide commercial HVAC technicians with information to improve their understanding while reducing cognitive load when operating and maintaining complex HVAC systems.",
+            "text": "The Contextere Advanced Virtual Assistant (AVA) is a front-end app experience that enables an industrial technician to ask questions and receive answers in real-time using the Microsoft Teams chat environment. The Contextere AVA ‘bot app’ for Microsoft Teams incorporates an integration with the Contextere Insight Engine with a sample dataset of technical manuals and related information from the industrial HVAC domain. In this live use case, the Contextere AVA would provide commercial HVAC technicians with information to improve their understanding while reducing cognitive load when operating and maintaining complex HVAC systems.",
             "wrap": true
         },
         {

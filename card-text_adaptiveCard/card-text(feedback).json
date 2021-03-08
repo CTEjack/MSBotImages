@@ -28,57 +28,53 @@
             "separator": true
         },
         {
-            "type": "ColumnSet",
-            "columns": [
+            "type": "ActionSet",
+            "actions": [
                 {
-                    "type": "Column",
-                    "width": "stretch"
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "horizontalAlignment": "Right",
-                    "items": [
-                        {
-                            "type": "ActionSet",
-                            "actions": [
-                                {
-                                    "type": "Action.ShowCard",
-                                    "title": "Feedback",
-                                    "card": {
-                                        "type": "AdaptiveCard",
-                                        "body": [
-                                            {
-                                                "type": "TextBlock",
-                                                "text": "Is this answer relevant to you?"
-                                            },
-                                            {
-                                                "type": "Input.ChoiceSet",
-                                                "choices": [
-                                                    {
-                                                        "title": "Yes",
-                                                        "value": "Yes"
-                                                    },
-                                                    {
-                                                        "title": "Sort of",
-                                                        "value": "Sort of"
-                                                    },
-                                                    {
-                                                        "title": "No",
-                                                        "value": "No"
-                                                    }
-                                                ],
-                                                "placeholder": "Is this answer relevant to you?",
-                                                "separator": true,
-                                                "id": "UserFeedback"
-                                            }
-                                        ]
+                    "type": "Action.ShowCard",
+                    "title": "Feedback",
+                    "card": {
+                        "type": "AdaptiveCard",
+                        "body": [
+                            {
+                                "type": "TextBlock",
+                                "text":"Help us improve the Contextere AVA"
+                            },
+                            {
+                                "type": "Input.ChoiceSet",
+                                "choices": [
+                                    {
+                                        "title": "Yes",
+                                        "value": "Yes"
+                                    },
+                                    {
+                                        "title": "Sort of",
+                                        "value": "Sort of"
+                                    },
+                                    {
+                                        "title": "No",
+                                        "value": "No"
                                     }
-                                }
-                            ],
-                            "horizontalAlignment": "Right"
-                        }
-                    ]
+                                ],
+                                "placeholder": "Is this answer relevant?",
+                                "separator": true,
+                                "id": "UserFeedback"
+                            },
+                            {
+                                "type": "Input.Text",
+                                "id": "comment",
+                                "placeholder": "Add a comment",
+                                "isMultiline": true
+                            }
+                        ],
+                        "actions": [
+                            {
+                                "type": "Action.Submit",
+                                "title": "OK"
+                            }
+                        ],
+                        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+                    }
                 }
             ]
         }

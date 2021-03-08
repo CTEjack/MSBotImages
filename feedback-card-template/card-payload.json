@@ -1,0 +1,61 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "size": "Medium",
+            "weight": "Bolder",
+            "text": "${title}"
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.ShowCard",
+            "title": "Feedback",
+            "card": {
+                "type": "AdaptiveCard",
+                "body": [
+                    {
+                        "type": "TextBlock",
+                        "text":"Help us improve the Contextere AVA"
+                    },
+                    {
+                        "type": "Input.ChoiceSet",
+                        "choices": [
+                            {
+                                "title": "Yes",
+                                "value": "Yes"
+                            },
+                            {
+                                "title": "Sort of",
+                                "value": "Sort of"
+                            },
+                            {
+                                "title": "No",
+                                "value": "No"
+                            }
+                        ],
+                        "placeholder": "Is this answer relevant?",
+                        "separator": true,
+                        "id": "UserFeedback"
+                    },
+                    {
+                        "type": "Input.Text",
+                        "id": "comment",
+                        "placeholder": "Add a comment",
+                        "isMultiline": true
+                    }
+                ],
+                "actions": [
+                    {
+                        "type": "Action.Submit",
+                        "title": "OK"
+                    }
+                ],
+                "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+            }
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.2"
+}

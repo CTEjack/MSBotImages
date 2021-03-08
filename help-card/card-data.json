@@ -1,0 +1,14 @@
+{
+    "title":"Contextere is here to help",
+    "description": "The Contextere Advanced Virtual Assistant will answer your technical questions on the commercial heating ventilation and air conditioning (HVAC) domain. This tool is designed for technicians who operate and maintain complex HVAC equipment. ",
+    "imgUrl":"https://contextere.blob.core.windows.net/hvac/Tour_img2.png",
+    "subheader1":"What it does:",
+    "bul1":"• Answers technical HVAC questions",
+    "bul2":"• Rapidly extract relevant text, tables, and figures from domain datasets",
+    "bul3":"• Delivers answers and related information via media-rich adaptive cards",
+    "subheader2":"Try these examples:",
+    "q1": "\"Show me the electronic expansion valve\"",
+    "q2": "\"What is the SW1 switch for?\"",
+    "url": "https://teams.microsoft.com/l/task/be5caee0-f2bc-11ea-b597-ef970e2f5141?url=https://contextere.z9.web.core.windows.net/tour&height=large&width=large"
+}
+   

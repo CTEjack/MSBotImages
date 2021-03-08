@@ -1,0 +1,42 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.2",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Something has gone wrong",
+            "size": "Large",
+            "weight": "Bolder",
+            "isSubtle": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "Our system has encountered a problem and is unable to return an answer to your query.",
+            "spacing": "Large",
+            "wrap": true,
+            "separator": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "View our tour page to see a list of sample questions and learn more about the Contextere Advanced Virtual Assistant or submit a ticke on our support page.",
+            "spacing": "Large",
+            "wrap": true
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Take a Tour",
+                    "url": "https://teams.microsoft.com/l/task/be5caee0-f2bc-11ea-b597-ef970e2f5141?url=https://contextere.z9.web.core.windows.net/tour&height=large&width=large"
+                },
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Visit our support page",
+                    "url": "https://contextere.com/support"
+                }
+            ]
+        }
+    ]
+}

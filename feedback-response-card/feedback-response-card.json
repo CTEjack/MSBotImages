@@ -1,0 +1,37 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.2",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Thanks for your feedback!",
+            "size": "Large",
+            "weight": "Bolder",
+            "isSubtle": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "Your feedback has been successfully submitted. Our team is constantly working on improvements to our Advanced Virtual Assistant and Insight Engine and feedback like yours is invaluable to us.",
+            "spacing": "Large",
+            "wrap": true,
+            "separator": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "If you would like to sumbit a ticket to our support team, use the button below.",
+            "spacing": "Large",
+            "wrap": true
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Visit our support page",
+                    "url": "https://contextere.com/support"
+                }
+            ]
+        }
+    ]
+}

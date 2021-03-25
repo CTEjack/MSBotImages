@@ -1,0 +1,8 @@
+{
+    "title": "Service Interruption",
+    "text1": "Our system has encountered an interruption and is working to re-establish a connection. Please try your query again",
+    "text2":"If the problem persists, please submit a ticket on our support page.",
+    "supportURL":"https://contextere.com/support",
+    "iconURL":"https://contextere.blob.core.windows.net/hvac/WarningIcon.png"
+}
+

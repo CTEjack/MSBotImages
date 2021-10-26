@@ -1,0 +1,96 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "${title}",
+            "size": "Large",
+            "weight": "Bolder",
+            "isSubtle": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "${query}",
+            "wrap": true,
+            "separator": true,
+            "spacing": "Large",
+            "weight": "Bolder",
+            "fontType": "Default",
+            "color": "Accent"
+        },
+        {
+            "type": "TextBlock",
+            "text": "${text}",
+            "spacing": "Large",
+            "wrap": true,
+            "separator": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "${source}",
+            "wrap": true,
+            "separator": true,
+            "fontType": "Monospace",
+            "weight": "Lighter",
+            "color": "Light"
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "View more",
+                    "url": "${pdf}"
+                },
+                {
+                    "type": "Action.ShowCard",
+                    "title": "Feedback",
+                    "card": {
+                        "type": "AdaptiveCard",
+                        "body": [
+                            {
+                                "type": "TextBlock",
+                                "text": "Help us improve the Contextere AVA"
+                            },
+                            {
+                                "type": "Input.ChoiceSet",
+                                "choices": [
+                                    {
+                                        "title": "Yes",
+                                        "value": "Yes"
+                                    },
+                                    {
+                                        "title": "Sort of",
+                                        "value": "Sort of"
+                                    },
+                                    {
+                                        "title": "No",
+                                        "value": "No"
+                                    }
+                                ],
+                                "placeholder": "Is this answer relevant?",
+                                "separator": true,
+                                "id": "UserFeedback"
+                            },
+                            {
+                                "type": "Input.Text",
+                                "id": "comment",
+                                "placeholder": "Add a comment",
+                                "isMultiline": true
+                            }
+                        ],
+                        "actions": [
+                            {
+                                "type": "Action.Submit",
+                                "title": "OK"
+                            }
+                        ],
+                        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "size": "ExtraLarge",
+            "weight": "Bolder",
+            "text": "What can I ask?"
+        },
+        {
+            "type": "TextBlock",
+            "text": "The Serco Advanced Virtual Assistant (Serco AVA) is a front-end app experience that enables a maritime technician to ask questions and receive answers in real-time using the Microsoft Teams chat environment. The Serco AVA ‘bot app’ for Microsoft Teams incorporates an integration with the Contextere Insight Engine with a sample dataset of technical manuals and related information from the enterprise maritime domain. In this live use case, the Serco AVA would provide maritime technicians with information to improve their understanding while reducing cognitive load when operating and maintaining complex systems.",
+            "wrap": true
+        },
+        {
+            "type": "Image",
+            "url": "https://contextere.blob.core.windows.net/hvac/Queries-card_header_image.jpg"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Try some of these queries to see what the Serco AVA can do:",
+            "weight": "Bolder",
+            "wrap": true
+        },
+        {
+            "type": "RichTextBlock",
+            "inlines": [
+                {
+                    "type": "TextRun",
+                    "text": "\"Where is the flame ring located?\"",
+                    "weight": "Bolder",
+                    "fontType": "Monospace",
+                    "size": "Medium",
+                    "color": "Accent"
+                }
+            ]
+        },
+        {
+            "type": "RichTextBlock",
+            "inlines": [
+                {
+                    "type": "TextRun",
+                    "text": "\"How can we control the high pressure feed volume?\"",
+                    "weight": "Bolder",
+                    "fontType": "Monospace",
+                    "size": "Medium",
+                    "color": "Accent"
+                }
+            ]
+        },
+        {
+            "type": "RichTextBlock",
+            "inlines": [
+                {
+                    "type": "TextRun",
+                    "text": "\"What is the purpose of spill pipes?\"",
+                    "weight": "Bolder",
+                    "fontType": "Monospace",
+                    "size": "Medium",
+                    "color": "Accent"
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.2"
+}

@@ -1,0 +1,82 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.2",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Welcome to your new virtual assistant",
+            "weight": "Bolder",
+            "size": "ExtraLarge"
+        },
+        {
+            "type": "Image",
+            "url": "https://contextere.blob.core.windows.net/hvac/serco-welcome-card_header-image.png"
+        },
+        {
+            "type": "TextBlock",
+            "text": "The Serco Advanced Virtual Assistant (Serco AVA) combines automated data extraction with an ML-based insight engine, using NLP and neural networks to extract meaning from maritime enterprise data and determine the appropriate contextually relevant micro-guidance or insights. The Serco AVA is an ML question-answering recommendation platform designed specifically for maritime technicians and operators.",
+            "spacing": "Large",
+            "wrap": true
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "The Serco Advanced Virtual Assistant can:",
+                            "wrap": true,
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "• Automatically extract information, meaning, and semantic relationships from structured, unstructured, and live maritime enterprise data including manuals, work orders, forms, and equipment sensor data.",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "• Understand context - user location and role, and equipment location/status - to provide intelligent guidance and curated insights to maritime users.",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "• Use a natural language conversational interface to provide users with augmented analytics insights and AI-enabled work instructions on desktop, mobile and wearable devices.",
+                            "wrap": true
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Large"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "ActionSet",
+                            "actions": [
+                                {
+                                    "type": "Action.OpenUrl",
+                                    "title": "Take a tour",
+                                    "url": "https://teams.microsoft.com/l/task/be5caee0-f2bc-11ea-b597-ef970e2f5141?url=https://contextere.z9.web.core.windows.net/tour&height=large&width=large"
+                                },
+                                {
+                                    "type": "Action.OpenUrl",
+                                    "title": "About Contextere",
+                                    "url": "https://contextere.com/"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

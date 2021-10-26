@@ -1,0 +1,37 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.5",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Sorry, we couldn't process your query",
+            "size": "Large",
+            "weight": "Bolder",
+            "isSubtle": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "Our system has encountered a problem with your query and is unable to return an answer. This application is a productivity tool for maritime technicians and is not designed for casual queries about non-technical and non-marine related topics.",
+            "spacing": "Large",
+            "wrap": true,
+            "separator": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "If the problem persists contact your IT administrator or visit our support page to open a ticket.",
+            "spacing": "Large",
+            "wrap": true
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Visit our support page",
+                    "url": "https://contextere.com/support"
+                }
+            ]
+        }
+    ]
+}
